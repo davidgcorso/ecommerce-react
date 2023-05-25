@@ -1,11 +1,10 @@
-import Navbar from "../Navbar/Navbar"
-
+import Products from "../Products/Products"
+import "./Home.css"
 const Home = () => {
   return (
-    <>
-    <Navbar/>
-    <div>Home</div>
-    </>
+    <div className="cardContainer">
+    <Products />
+    </div>
   )
 }
 
