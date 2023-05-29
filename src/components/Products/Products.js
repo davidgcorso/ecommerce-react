@@ -3,16 +3,9 @@ import { dataContext } from "../Context/DataContext";
 import "./Products.css"
 
 const Products = () => {
-    const {data, cart, setCart} = useContext(dataContext)
+    const {data, buyProducts} = useContext(dataContext)
     const images = require.context("../../img", true)
-    const buyProducts = (product) => {
-      const repeated = cart.find((item) => item.id === product.id)
-      if(repeated) {
-        setCart(cart.map((item) =>item.id ===product.id ? {...product, quanty: repeated.quanty +1} : item))
-      } else {
-        setCart([...cart, product])
-      }
-    }
+
   return data.map((product)=> {
     return (
         <div className='card' key={product.id}>

@@ -11,8 +11,16 @@ const DataProvider = ({children}) => {
         axios("data.json")
         .then((res) => setData(res.data))
     }, [])
+    const buyProducts = (product) => {
+        const repeated = cart.find((item) => item.id === product.id)
+        if(repeated) {
+          setCart(cart.map((item) =>item.id ===product.id ? {...product, quanty: repeated.quanty +1} : item))
+        } else {
+          setCart([...cart, product])
+        }
+      }
     return (
-        <dataContext.Provider value={{data, cart, setCart}}>
+        <dataContext.Provider value={{data, cart, setCart, buyProducts}}>
         {children}
         </dataContext.Provider>
     )
