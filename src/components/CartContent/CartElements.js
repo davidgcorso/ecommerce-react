@@ -15,13 +15,15 @@ const CartElements = () => {
   }
   return cart.map((product) => {
       return (
+        <>
         <div className="cartElements" key={product.id}>
+          <h3 className='cartElements__delete' onClick={()=> deleteProduct(product.id)}>❌</h3>
           <img src={images(`./${product.image}.jpg`)} alt={product.name} className="cartElements__img"/>
           <h3 className="cartElements__name">{product.name}</h3>
           <CartItemCounter product={product} quanty={product.quanty} />
-          <h4 className="cartElements__price">$ {product.price * product.quanty}</h4>
-          <h3 className='cartElements__delete' onClick={()=> deleteProduct(product.id)}>❌</h3>
+          <h4 className="cartElements__price">$ {(product.price * product.quanty).toFixed(2)}</h4>
         </div>
+        </>
       )
     })
   }

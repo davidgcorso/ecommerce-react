@@ -7,7 +7,7 @@ const CartTotal = () => {
     const total = cart.reduce((acc,elem)=> acc + elem.price * elem.quanty, 0)
   return (
     <div style={{textAlign: "center"}}>
-        <h3>Total: ${total}</h3>
+        <h3>Total: ${total.toFixed(2)}</h3>
     </div>
   )
 }

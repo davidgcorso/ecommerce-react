@@ -1,0 +1,18 @@
+.container__counter {
+    display: flex;
+    justify-content: center;
+}
+.button__counter {
+ margin: 0 12px;
+ background-color: #057bfe;
+ color: #f4f4f6;
+ width: 2rem;
+ height: 1.5rem;
+ text-align: center;
+ border-radius: 10px;
+ font-weight: bolder;
+ cursor: pointer;
+}
+.button__counter:hover {
+    background-color: #5fa7ff;
+}
