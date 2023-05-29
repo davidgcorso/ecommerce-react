@@ -9,7 +9,8 @@
     "price": 89.99,
     "countInStock": 10,
     "rating": 4.5,
-    "numReviews": 12
+    "numReviews": 12,
+    "quanty":1
     },
     {
     "id": 2,
@@ -21,7 +22,8 @@
     "price": 599.99,
     "countInStock": 7,
     "rating": 4,
-    "numReviews": 8
+    "numReviews": 8,
+    "quanty":1
     },
     {
     "id": 3,
@@ -33,7 +35,8 @@
     "price": 929.99,
     "countInStock": 5,
     "rating": 3,
-    "numReviews": 12
+    "numReviews": 12,
+    "quanty":1
     },
     {
     "id": 4,
@@ -45,7 +48,8 @@
     "price": 399.99,
     "countInStock": 11,
     "rating": 5,
-    "numReviews": 12
+    "numReviews": 12,
+    "quanty":1
     },
     {
     "id": 5,
@@ -57,7 +61,8 @@
     "price": 49.99,
     "countInStock": 7,
     "rating": 3.5,
-    "numReviews": 10
+    "numReviews": 10,
+    "quanty":1
     },
     {
     "id": 6,
@@ -69,6 +74,7 @@
     "price": 29.99,
     "countInStock": 0,
     "rating": 4,
-    "numReviews": 12
+    "numReviews": 12,
+    "quanty":1
     }
     ]

@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { dataContext } from '../Context/DataContext'
 import './CartElements.css'
+import CartItemCounter from './CartItemCounter'
 
 const CartElements = () => {
   const images = require.context("../../img", true)
@@ -10,6 +11,7 @@ const CartElements = () => {
         <div className="cartElements" key={product.id}>
           <img src={images(`./${product.image}.jpg`)} alt={product.name} className="cartElements__img"/>
           <h3 className="cartElements__name">{product.name}</h3>
+          <CartItemCounter quanty={product.quanty} />
           <h4 className="cartElements__price">$ {product.price}</h4>
         </div>
       )
