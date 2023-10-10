@@ -34,7 +34,7 @@ Si deseas colaborar en el desarrollo de ECOMSUR Ecommerce, sigue estos pasos:
 3. Realiza tus cambios y haz commits descriptivos.
 4. Haz un push de tu rama y abre un Pull Request.
 
-Para preguntas, sugerencias o problemas, contáctanos a través de davidgcorso@gmail.com o abre un issue en el repositorio.
+Para preguntas, sugerencias o problemas, contáctame a través de davidgcorso@gmail.com o abre un issue en el repositorio.
 
 
 
