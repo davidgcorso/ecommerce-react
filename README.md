@@ -1,6 +1,6 @@
 # Ecommerce
 
-Proyecto realizado en base a prueba tecnica de ECOMSUR.
+Proyecto Ecommerce realizado en base a prueba tecnica de ECOMSUR.
 
 ## Conocimientos Aplicados:
 
